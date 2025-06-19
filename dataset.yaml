@@ -1,4 +1,4 @@
-path: /Users/akshar/Documents/DL/drone detection
+path: /Users/akshar/Documents/DL/Aero Detect
 train: data/images/train
 val: data/images/val
 test: data/images/test

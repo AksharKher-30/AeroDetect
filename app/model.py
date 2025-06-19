@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 # Load the model once
-model = YOLO('/Users/akshar/Documents/DL/drone detection/runs_n/drone_train_n/drone_detector_n/weights/best.pt')  # Update the path if needed
+model = YOLO('/Users/akshar/Documents/DL/Aero Detect/runs_n/drone_train_n/drone_detector_n/weights/best.pt')  # Update the path if needed
 
 def detect_drones(image):
     # Convert OpenCV image (BGR) to RGB
