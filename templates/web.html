@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drone Detection</title>
+  <link rel="stylesheet" href="/static/web.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AeroScan</h1>
+
+    <!-- Unified Upload Form -->
+    <form id="unified-form" enctype="multipart/form-data">
+      <div class="file-input-wrapper">
+        <input type="file" id="file-upload" accept="image/*,video/*" multiple required />
+      </div>
+      <p id="file-limit-msg" style="color:red; display:none;">You can upload up to 8 images only.</p>
+
+      <!-- Preview Section (Images or Video shown here) -->
+      <div id="preview-container" class="image-grid" style="margin-top: 10px;"></div>
+      <video id="video-output" controls style="max-width: 100%; display: none; margin-top: 10px;"></video>
+
+      <button type="submit" >Detect</button>
+
+    </form>
+    <div id="loading-bar" class="loading-bar"></div>
+  </div>
+
+  <script src="/static/web.js"></script>
+</body>
+</html>
