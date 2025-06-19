@@ -137,4 +137,5 @@ Image size: `512`, Confidence threshold: `0.35`, IoU threshold: `0.5`
 
 ## 🚀 Working Demo
 
-![Demo](assets/demo.gif)
+https://github.com/user-attachments/assets/44cd09a3-429f-4826-a437-f607e3645e29
+
